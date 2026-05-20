@@ -284,7 +284,7 @@ RUN --mount=type=cache,dst=/var/cache \
         lsb_release \
         uupd \
         ds-inhibit \
-        waydroid \
+        # waydroid \
         cage \
         wlr-randr \
         gmodpatchtool \
@@ -334,8 +334,8 @@ RUN --mount=type=cache,dst=/var/cache \
         obs-studio-plugin-vkcapture-hook-libs.i686 \
         openxr && \
     dnf5 -y --enable-repo=terra-mesa --enable-repo=terra --setopt=install_weak_deps=False install \
-        steam \
-        lutris && \
+        steam && \
+        # lutris && \
     dnf5 -y remove \
         gamemode && \
     /ctx/ghcurl "https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks" -Lo /usr/bin/winetricks && \
