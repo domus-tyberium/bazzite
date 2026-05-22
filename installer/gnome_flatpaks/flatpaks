@@ -40,4 +40,3 @@ app/org.libreoffice.LibreOffice/x86_64/stable
 app/org.mozilla.Thunderbird/x86_64/stable
 app/org.signal.Signal/x86_64/stable
 app/org.texstudio.TeXstudio/x86_64/stable
-runtime/org.freedesktop.Sdk.Extension.texlive/x86_64/25.08
