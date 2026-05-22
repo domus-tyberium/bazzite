@@ -32,9 +32,7 @@ jobs:
       matrix:
         image_name:
           - bazzite
-          - bazzite-deck
           - bazzite-gnome
-          - bazzite-deck-gnome
           - bazzite-nvidia
           - bazzite-gnome-nvidia
           - bazzite-nvidia-open
