@@ -59,7 +59,9 @@ jobs:
       matrix:
         image:
           - bazzite
+          - bazzite-deck
           - bazzite-gnome
+          - bazzite-deck-gnome
           - bazzite-nvidia
           - bazzite-gnome-nvidia
           - bazzite-nvidia-open
